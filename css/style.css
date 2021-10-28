@@ -1,0 +1,25 @@
+.boardFields {
+    width: 50vw;
+    height: 50vh;
+    display: grid;
+    background-color: #f0f0f0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px solid gray;
+    grid-gap: 2px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+.boxTiles {
+    border: 1px solid gray;
+    transition: 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em
+}
+.boxTiles:hover {
+    background: #fafafa
+}
